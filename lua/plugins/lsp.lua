@@ -196,23 +196,7 @@ return {
     local servers = {
       -- clangd = {},
       -- gopls = {},
-      pylsp = {
-        settings = {
-          pylsp = {
-            configurationSources = { 'flake8' },
-            plugins = {
-              pyflakes = { enabled = false },
-              pycodestyle = { enabled = false },
-              autopep8 = { enabled = false },
-              yapf = { enabled = false },
-              mccabe = { enabled = false },
-              pylsp_mypy = { enabled = false },
-              pylsp_black = { enabled = false },
-              pylsp_isort = { enabled = true },
-            },
-          },
-        },
-      },
+      pylsp = {}, -- Config ignored, set in init.lua as a workaround
       cssls = {},
       rust_analyzer = {},
       jsonls = {},

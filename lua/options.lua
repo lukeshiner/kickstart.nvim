@@ -68,3 +68,5 @@ vim.o.inccommand = 'split'
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
+vim.g.loaded_netrw = 0
+vim.g.loaded_netrwPlugin = 0
