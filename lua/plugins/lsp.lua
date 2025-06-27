@@ -164,7 +164,7 @@ return {
         },
       } or {},
       virtual_text = {
-        source = 'ifmany',
+        source = 'if-many',
         spacing = 2,
         format = function(diagnostic)
           local diagnostic_message = {
