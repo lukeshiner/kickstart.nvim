@@ -19,7 +19,6 @@ return {
         'checkmake', -- linter for Makefiles
         'isort',
         'black',
-        'rustfmt',
       },
       automatic_installation = true,
     }
