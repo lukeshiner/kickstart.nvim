@@ -40,7 +40,6 @@ return { -- Autoformat
       yaml = { 'prettier' },
       markdown = { 'prettier' },
       graphql = { 'prettier' },
-      lua = { 'stylua' },
       python = { 'isort', 'black' },
       rust = { 'rustfmt' },
       lua = { 'stylua' },
