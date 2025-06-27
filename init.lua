@@ -244,7 +244,7 @@ require('lazy').setup({
   },
 
   require 'plugins.neotree',
-  require 'plugins.bufferline',
+  require 'plugins.barbar',
   require 'plugins.lualine',
   require 'plugins.treesitter',
   require 'plugins.telescope',
