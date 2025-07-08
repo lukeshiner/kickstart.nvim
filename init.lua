@@ -263,6 +263,7 @@ require('lazy').setup({
   require 'plugins.rhubarb',
   require 'plugins.colorizer',
   require 'plugins.conform',
+  require 'plugins.auto-session',
 
   require 'themes.tokyonight',
 
