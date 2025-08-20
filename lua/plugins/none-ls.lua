@@ -16,7 +16,6 @@ return {
         'stylua', -- lua formatter
         'eslint_d', -- ts/js linter
         'shfmt', -- Shell formatter
-        'checkmake', -- linter for Makefiles
         'isort',
         'black',
       },
@@ -24,7 +23,6 @@ return {
     }
 
     local sources = {
-      diagnostics.checkmake,
       formatting.prettier.with { filetypes = { 'html', 'json', 'yaml', 'markdown' } },
       formatting.stylua,
       formatting.shfmt.with { args = { '-i', '4' } },
