@@ -18,6 +18,7 @@ return {
         'shfmt', -- Shell formatter
         'isort',
         'black',
+        'djlint',
       },
       automatic_installation = true,
     }
@@ -27,6 +28,7 @@ return {
       formatting.stylua,
       formatting.shfmt.with { args = { '-i', '4' } },
       formatting.terraform_fmt,
+      formatting.djlint.with { 'djangohtml' },
     }
 
     local augroup = vim.api.nvim_create_augroup('LspFormatting', {})
