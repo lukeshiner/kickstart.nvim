@@ -28,7 +28,7 @@ return {
       formatting.stylua,
       formatting.shfmt.with { args = { '-i', '4' } },
       formatting.terraform_fmt,
-      formatting.djlint.with { 'djangohtml' },
+      formatting.djlint.with { 'htmldjango' },
     }
 
     local augroup = vim.api.nvim_create_augroup('LspFormatting', {})
